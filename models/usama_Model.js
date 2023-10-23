@@ -7,7 +7,8 @@ const usamaSchema = mongoose.Schema({
     },
     salary: {
         type: Number,
-        default:0,
+        // default:0,
+        required: [false],
     },
     email: {
         type: String,
@@ -15,7 +16,7 @@ const usamaSchema = mongoose.Schema({
     },
     phone: {
         type: String,
-        required: [false],
+        // required: [false],
         default:"xxxx-xxxxxxx"
     }
 }, {
