@@ -40,15 +40,15 @@ const fs = require('fs');
 const path = require('path');
 
 // second way to set file path
-fs.readFile(path.join(__dirname,'models/readFile.txt'), 'utf-8' ,(err, data) => {
+fs.readFile(path.join(__dirname, 'models/readFile.txt'), 'utf-8', (err, data) => {
     if (err) throw err;
-    console.log("read successfully = ",data);
+    console.log("read successfully = ", data);
 })
 
 // console.log("hello data ....");
 
 //write new file in jaga
-fs.writeFile(path.join(__dirname,'models/writeFile.txt'), 'and i am your computer' ,(err) => {
+fs.writeFile(path.join(__dirname, 'models/writeFile.txt'), 'and i am your computer', (err) => {
     if (err) throw err;
     console.log("write fully");
 })

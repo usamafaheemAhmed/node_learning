@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const usamaSchema = mongoose.Schema({
     name: {
         type: String,
-        required:[true, "please enter name"]
+        required: [true, "please enter name"]
     },
     salary: {
         type: Number,
@@ -12,15 +12,15 @@ const usamaSchema = mongoose.Schema({
     },
     email: {
         type: String,
-        required:[true,"Please enter email"]
+        required: [true, "Please enter email"]
     },
     phone: {
         type: String,
         // required: [false],
-        default:"xxxx-xxxxxxx"
+        default: "xxxx-xxxxxxx"
     }
 }, {
-    timestamps:true
+    timestamps: true
 }
 
 )

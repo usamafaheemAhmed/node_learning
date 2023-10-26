@@ -1,14 +1,19 @@
 [
   {
     "userName": "komail",
-    "password": "$2b$10$oxhi49dYquWKzdeoTaJsyepjb2AFY5XgV01aN.XYRo/.f6SBYImHe"
+    "password": "$2b$10$oxhi49dYquWKzdeoTaJsyepjb2AFY5XgV01aN.XYRo/.f6SBYImHe",
+    "roles": { "User": 2001 }
   },
   {
     "userName": "Usama",
-    "password": "$2b$10$M1rPQJv117PrDhiAweqhlOThFiLC0SSdxtZuSvv6nex8wjGrZFAIm"
+    "password": "$2b$10$M1rPQJv117PrDhiAweqhlOThFiLC0SSdxtZuSvv6nex8wjGrZFAIm",
+    "roles": { "User": 2001, "Editor": 1984 },
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzYW1hIiwiaWF0IjoxNjk4MjQxMjQzLCJleHAiOjE2OTgyNDMwNDN9.vIUokgKpSq53jfAC91HPK7evvf6lgEMcjEWFlAyQSb8"
   },
   {
     "userName": "UsamaSaeed",
-    "password": "$2b$10$Nr/T7Wy8LUgkwQCn526MY.wS3ruOW0O6bOzxn1tlOoJVSOW79MJlC"
+    "password": "$2b$10$Nr/T7Wy8LUgkwQCn526MY.wS3ruOW0O6bOzxn1tlOoJVSOW79MJlC",
+    "roles": { "User": 2001, "Editor": 1984, "Admin": 5150 },
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzYW1hU2FlZWQiLCJpYXQiOjE2OTgyNDE0MjUsImV4cCI6MTY5ODI0MzIyNX0.SoLdTu_N2GuKB1smU1Le5deMt7OYge-DQnINvF3vFss"
   }
 ]

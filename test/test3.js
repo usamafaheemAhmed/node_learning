@@ -5,7 +5,7 @@ const fsPromise = require('fs').promises;
 
 //defining Port
 const PORT = process.env.PORT || 7000;
- 
+
 
 const server = http.createServer((req, res) => {
     console.log(req.url, req.method);

@@ -5,7 +5,7 @@ const path = require('path');
 
 const fileOps = async () => {
     try {
-        
+
         let data = await fsPromise.readFile(path.join(__dirname, 'models/readFile.txt'), 'utf-8');
         console.log(data);
         if (fs.existsSync(path.join(__dirname, 'models/NewWriteFile.txt'))) {
@@ -26,7 +26,7 @@ const fileOps = async () => {
 
 const rs = fs.createReadStream(path.join(__dirname, 'models/readFile.txt'), { encoding: 'utf-8' })
 
-const ws =  fs.createWriteStream(path.join(__dirname, 'models/writeFile.txt'))
+const ws = fs.createWriteStream(path.join(__dirname, 'models/writeFile.txt'))
 // first way
 // rs.on('data', (dataChunk) => {
 //     ws.write(dataChunk)
